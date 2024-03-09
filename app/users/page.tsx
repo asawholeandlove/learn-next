@@ -13,7 +13,6 @@ const UsersPage = async () => {
     <div>
       <div className="font-bold">{new Date().toLocaleTimeString()}</div>
       <h1>Users Page</h1>
-      <Image src="background.jpg" alt="Vercel Logo" width={500} height={500} />
       <ul>
         {users.map((user) => (
           <li key={user.id}>{user.name}</li>
